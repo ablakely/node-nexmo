@@ -1,3 +1,5 @@
+/* this script has been replaced with account.js and sms.js */
+
 var nexmo	= require('../lib/nexmo.js').Nexmo,
     username	= null,
     password    = null,

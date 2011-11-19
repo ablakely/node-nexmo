@@ -1,0 +1,4 @@
+This module requires the 'request' npm packages.
+Simply run:
+ 	npm install request
+To install it.

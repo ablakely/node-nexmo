@@ -7,7 +7,7 @@ var nexmo	= require('../lib/nexmo.js').Nexmo,
 
 var s = new nexmo(key, secret);
 
-/s.send(from, to, text, function(err, sucuess) {
+s.send(from, to, text, function(err, sucuess) {
 	if (sucuess) {
 		console.log('msgid: ' + sucuess.id);
 	}

@@ -1,4 +1,11 @@
+node-nexmoapi
+Written by Aaron Blakely <aaron@ephasic.org>
+
 This module requires the 'request' npm packages.
 Simply run:
  	npm install request
 To install it.
+
+This module is in the npm repo to install it run:
+	npm install nexmoapi
+

@@ -2,7 +2,7 @@ var nexmo	= require('../lib/nexmo.js').Nexmo,
     key		= '',
     secret	= '';
 
-var s = new nexmo(null, null, key, secret);
+var s = new nexmo(key, secret);
 
 s.balance(function(err, res) {
 	if (err) {

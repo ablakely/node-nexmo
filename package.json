@@ -1,0 +1,13 @@
+{
+    "name" : "nexmoapi",
+    "author" : "Aaron Blakely",
+    "version" : "0.0.2",
+    "keywords" : ["nexmo", "sms", "international"],
+    "homepage" : "https://github.com/ablakely/node-nexmo",
+    "repository" : {"type": "git", "url": "git://github.com/ablakely/node-nexmo.git"},
+    "description" : "Node interface to nexmo.com's SMS API.",
+    "contributors" : [],
+    "dependencies" : {
+       "request" : "x"
+   }
+}

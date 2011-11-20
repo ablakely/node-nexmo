@@ -46,7 +46,12 @@ pricing:
 	  error will contain an error, otherwise is null.
 
 numbers:
-	not yet implemented.
+	parameters: callback
+	returns: nothing
+	Description: This function will get a list of numbers that are associated with the account
+	callback params: error, res
+           res is usually some JSON code
+	   error will contain an error, otherwise is null.
 
 buy:
 	parameters: countrycode, msisdn, callback

@@ -16,7 +16,7 @@ s.send(from, to, text, function(err, sucuess) {
 	}	
 });
 
-s.search('US', '901', function(err, res) {
+s.search(countrycode, opt_patern, function(err, res) {
 	if (err) {
 		console.log(err);
 	}

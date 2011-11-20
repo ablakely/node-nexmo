@@ -1,11 +1,11 @@
 var nexmo	= require('../lib/nexmo.js').Nexmo,
-    username	= null,
-    password    = null,
-    from	= null,
-    to		= null,
+	key		= '',
+	secret  = '',
+	from    = '',
+	to      = '',
     text	= 'Hello World!';
 
-var s = new nexmo(username, password);
+var s = new nexmo(key, secret);
 
 s.send(from, to, text, function(err, sucuess) {
 	if (sucuess) {

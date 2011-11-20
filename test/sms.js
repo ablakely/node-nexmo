@@ -25,3 +25,13 @@ s.search(countrycode, opt_patern, function(err, res) {
 		console.log(res);
 	}
 });
+
+s.numbers(function(err, res) {
+	if (err) {
+		console.log(err);
+	}
+	
+	if (res) {
+		console.log(res);
+	}
+});

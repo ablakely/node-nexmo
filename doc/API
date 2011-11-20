@@ -1,0 +1,31 @@
+node-nexmoapi
+Written by Aaron Blakely <aaron@ephasic.org>
+----------------------------------------------------------------
+
+To 'require' the node-nexmoapi package simply do this:
+	var nexmo = require('nexmoapi/lib/nexmo').Nexmo;
+
+To construct the Nexmo object do this:
+	var sender = new nexmo('key', 'secret');
+* You can find your Nexmo API key and secret in the API section
+  of the Nexmo dashboard.
+
+-----------------------------------------------------------------
+
+Functions:
+
+send:
+	paramters: from, to, text, callback
+	returns: nothing.
+	Description: This function will send an SMS containing 'text' to the 'to' phone
+		     number from the 'from' number (if you own it.).
+
+	callback paramters: error, res
+        res contains information like id, price, and balance
+	  res.id
+	  res.price
+          res.balance
+        error will contain an error, otherwise is null.
+
+balance:
+

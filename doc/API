@@ -15,12 +15,12 @@ To construct the Nexmo object do this:
 Functions:
 
 send:
-	paramters: from, to, text, callback
+	parameters: from, to, text, callback
 	returns: nothing.
 	Description: This function will send an SMS containing 'text' to the 'to' phone
 		     number from the 'from' number (if you own it.).
 
-	callback paramters: error, res
+	callback params: error, res
         res contains information like id, price, and balance
 	  res.id
 	  res.price
@@ -28,4 +28,55 @@ send:
         error will contain an error, otherwise is null.
 
 balance:
+	parameters: callback
+	returns: nothing
+	Description: This function will get the balance of the account and the callback
+			     response will be it.
+	callback params: error, balance
+	  balance is usually a int of some kind.
+	  error will contain an error, otherwise is null.
 
+pricing:
+	parameters: countrycode, callback
+	returns: nothing
+	Description: This function will get the price of numbers in the country that 'countrycode'
+	             specifies.
+	callback params: error, res
+	  res is usually some JSON code
+	  error will contain an error, otherwise is null.
+
+numbers:
+	not yet implemented.
+
+buy:
+	parameters: countrycode, msisdn, callback
+	returns: nothing
+	Description: This function purchases a number with a matching msisdn and thats in countrycode.
+	callback params: error, res
+	  res is 1 on success
+	  error will contain an error, otherwise is null
+
+cancel:
+	parameters: countrycode, msisdn, callback
+	returns: nothing
+	Description: This function cancels a purchase of a number with a matching msisdn and thats in countrycode.
+	callback params: error, res
+	  res is 1 on success
+	  error will contain an error, otherwise is null
+
+updateSecret:
+	parameters: newSecret, callback
+	returns: nothing
+	Description: this function updates the users secret API key.
+	  * the max chars for the secret is 8.
+	callback params: error, res
+	  res usually contains the new API 'secret' key.
+	  error will contain an error, otherwise is null
+
+search:
+	parameters: countrycode, pattern, callback
+	returns: nothing
+	Description: searches Nexmo's number db for a number in 'countrycode' and that matches 'pattern'
+	callback params: error, res
+	  res usually contains results for the query
+	  error will contain an error, otherwise is null.

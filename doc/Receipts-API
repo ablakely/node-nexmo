@@ -1,0 +1,15 @@
+node-nexmoapi
+Written by Aaron Blakely <aaron@ephasic.org>
+--------------------------------------------------------------------
+To 'require' the node-nexmoapi package's Receipt API simply do this:
+	var nexmoReceipt = require('nexmoapi/lib/nexmo').NexmoReceipt;
+--------------------------------------------------------------------
+
+Functions:
+
+start:
+	starts the receipts server.
+	NOTE: it runs on 4032, so http://localhost:4032/receipts
+
+stop:
+	stops the receipts server.

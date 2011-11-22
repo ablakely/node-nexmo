@@ -1,7 +1,7 @@
 {
     "name" : "nexmoapi",
     "author" : "Aaron Blakely",
-    "version" : "0.1.3",
+    "version" : "0.1.4",
     "keywords" : ["nexmo", "sms", "international"],
     "homepage" : "https://github.com/ablakely/node-nexmo",
     "repository" : {"type": "git", "url": "git://github.com/ablakely/node-nexmo.git"},

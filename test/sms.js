@@ -7,7 +7,7 @@ var nexmo	= require('../lib/nexmo.js').Nexmo,
 
 /*
   HTTPS:
-   var nexmo = require('../lib/nexmo.js').NexmoHttps;
+   var s = new nexmo(key, secret, true);
 */
 
 var s = new nexmo(key, secret);

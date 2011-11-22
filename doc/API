@@ -11,8 +11,9 @@ To construct the Nexmo object do this:
   of the Nexmo dashboard.
 
 NOTE:
-   For HTTPs support simply 'require' the package using this:
-     var nexmo = require('nexmoapi/lib/nexmo').NexmoHttps;
+   For HTTPs support simply construct the Nexmo object like this:
+   	 var sender = new nexmo('key', 'secret', true);
+   	 
 -----------------------------------------------------------------   
 Note:
    The samples above are assuming you have installed this module

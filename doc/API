@@ -10,6 +10,13 @@ To construct the Nexmo object do this:
 * You can find your Nexmo API key and secret in the API section
   of the Nexmo dashboard.
 
+NOTE:
+   For HTTPs support simply 'require' the package using this:
+     var nexmo = require('nexmoapi/lib/nexmo').NexmoHttps;
+-----------------------------------------------------------------   
+Note:
+   The samples above are assuming you have installed this module
+   from npm, in test/ examples its just '../lib/nexmo.js'
 -----------------------------------------------------------------
 
 Functions:

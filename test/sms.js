@@ -5,6 +5,11 @@ var nexmo	= require('../lib/nexmo.js').Nexmo,
 	to      = '',
     text	= 'Hello World!';
 
+/*
+  HTTPS:
+   var nexmo = require('../lib/nexmo.js').NexmoHttps;
+*/
+
 var s = new nexmo(key, secret);
 
 s.send(from, to, text, function(err, sucuess) {

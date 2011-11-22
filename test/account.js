@@ -4,6 +4,12 @@ var nexmo	= require('../lib/nexmo.js').Nexmo,
 
 var s = new nexmo(key, secret);
 
+/*
+  HTTPS:
+   var nexmo = require('../lib/nexmo.js').NexmoHttps;
+*/
+
+
 s.balance(function(err, res) {
 	if (err) {
 		console.log(err);

@@ -4,6 +4,12 @@ var testcase	 = require('nodeunit').testCase,
     nexmo		 = require('../lib/nexmo').Nexmo;
     nexmoReceipt = require('../lib/nexmo').NexmoReceipts;
 
+/*
+  HTTPS:
+   var nexmo = require('../lib/nexmo.js').NexmoHttps;
+*/
+
+
 module.exports = testcase({
 	setUp: function(callback)
 	{
@@ -53,3 +59,4 @@ module.exports = testcase({
 		});
 	}
 });
+

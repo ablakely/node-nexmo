@@ -3,7 +3,7 @@ Written by Aaron Blakely <aaron@ephasic.org>
 ----------------------------------------------------------------
 
 To 'require' the node-nexmoapi package simply do this:
-	var nexmo = require('nexmoapi/lib/nexmo').Nexmo;
+	var nexmo = require('nexmoapi').Nexmo;
 
 To construct the Nexmo object do this:
 	var sender = new nexmo('key', 'secret');

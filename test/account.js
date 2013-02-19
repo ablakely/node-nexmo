@@ -1,4 +1,4 @@
-var nexmo	= require('../lib/nexmo.js').Nexmo,
+var nexmo	= require('../index.js').Nexmo,
     key		= '',
     secret	= '';
 

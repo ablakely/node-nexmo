@@ -2,7 +2,7 @@ node-nexmoapi
 Written by Aaron Blakely <aaron@ephasic.org>
 --------------------------------------------------------------------
 To 'require' the node-nexmoapi package's Receipt API simply do this:
-	var nexmoReceipt = require('nexmoapi/lib/nexmo').NexmoReceipt;
+	var nexmoReceipt = require('nexmoapi').NexmoReceipt;
 --------------------------------------------------------------------
 
 Functions:

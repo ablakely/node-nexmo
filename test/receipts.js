@@ -1,8 +1,8 @@
 var testcase	 = require('nodeunit').testCase,
     url			 = require('url'),
     request      = require('request'),
-    nexmo		 = require('../lib/nexmo').Nexmo;
-    nexmoReceipt = require('../lib/nexmo').NexmoReceipts;
+    nexmo		 = require('../index.js').Nexmo;
+    nexmoReceipt = require('../index.js').NexmoReceipts;
 
 /*
   HTTPS:

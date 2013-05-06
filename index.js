@@ -45,6 +45,7 @@ nexmo.prototype = {
 					password: this.secret,
 					from:	  from,
 					to:       to,
+					type:     'unicode',
 					text:     text
 				}
 			});
@@ -58,6 +59,7 @@ nexmo.prototype = {
 					password: this.secret,
 					from:	  from,
 					to:       to,
+					type:     'unicode',
 					text:     text
 				}
 			});

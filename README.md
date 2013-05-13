@@ -29,6 +29,7 @@ Version 3.x.x of nexmoapi is a complete recode of the library.  With this overha
 * More effecient!
 * Message objects.
 * Improved usablity.
+
 Even with all these changes, 3.x.x retains backwards compatibility with 2.x.x and 1.x.x.
 
 

@@ -2,7 +2,7 @@
 
 This project is a client library for the [Nexmo SMS Wholesale API](http://nexmo.com) REST interface.
 
-# Usage
+# Library API
 Here's a basic demonstration of how to use this library to send a text message.
 
 ```javascript
@@ -24,7 +24,7 @@ client.send(from, to, 'message', function(err, msg) {
 });
 ```
 
-# Major Overhaul 1.x.x & 2.x.x
+## Major Overhaul 1.x.x & 2.x.x
 Version 3.x.x of nexmoapi is a complete recode of the library.  With this overhaul comes many new features:
 * More effecient!
 * Message objects.

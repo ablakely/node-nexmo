@@ -71,20 +71,19 @@ nexmo.prototype = {
 			return;
 		}
 		
-		if (text.length > 160) {
-			callback(new Error('SMS(es) are limited to 160 chars.'));
-		}
-		
 		if (!from || from.length === 0) {
 			callback(new Error('from is undefined.'));
+			return;
 		}
 		
 		if (!to || to.length === 0) {
 			callback(new Error('to is undefined.'));
+			return;
 		}
 		
 		if (!text || text.length == 0) {
 			callback(new Error('text is undefined.'));
+			return;
 		}
 		
 		http.post({
